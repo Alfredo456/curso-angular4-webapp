@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div id="content" class="col-md-10">
+        <header id="header">
+          <h1>
+            {{title}}
+          </h1>
+        </header>
+        <nav id="nav" >
+          <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">Productos</a></li>
+            <li> <a href="#">Crear producto</a></li>
+          </ul>
+        </nav>
+        <br>
+        <section id="main">
+          <router-outlet></router-outlet>
+        </section>
+        <footer id="footer">
+          <p>Curso de Angular 4 </p>
+        </footer>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
